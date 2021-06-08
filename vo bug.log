@@ -1,0 +1,69 @@
+2021-05-24 14:05:13.167484+0800 TestWebviewScrollVO[381:11006] WF: === Starting WebFilter logging for process TestWebviewScrollVO
+2021-05-24 14:05:13.167681+0800 TestWebviewScrollVO[381:11006] WF: _userSettingsForUser mobile: {
+    filterBlacklist =     (
+    );
+    filterWhitelist =     (
+    );
+    restrictWeb = 1;
+    useContentFilter = 0;
+    useContentFilterOverrides = 0;
+    whitelistEnabled = 0;
+}
+2021-05-24 14:05:13.167846+0800 TestWebviewScrollVO[381:11006] WF: _WebFilterIsActive returning: NO
+webView(_:didFinish:) (0.0, 0.0)
+2021-05-24 14:05:36.897746+0800 TestWebviewScrollVO[381:11199] Metal API Validation Enabled
+2021-05-24 14:05:38.065954+0800 TestWebviewScrollVO[381:11006] [AXRuntimeCommon] Unknown client: TestWebviewScrollVO
+<WKWebView: 0x14681ba00; frame = (0 0; 700 771); layer = <CALayer: 0x2828fd280>>
+   | <WKScrollView: 0x14800e800; baseClass = UIScrollView; frame = (0 0; 700 771); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x282681dd0>; layer = <CALayer: 0x2828e59a0>; contentOffset: {0, 0}; contentSize: {700, 771}; adjustedContentInset: {0, 0, 0, 0}>
+   |    | <WKContentView: 0x148009800; frame = (0 0; 700 771); anchorPoint = (0, 0); gestureRecognizers = <NSArray: 0x28268f660>; layer = <CALayer: 0x2828e4ac0>>
+   |    |    | <UIView: 0x147305840; frame = (0 0; 700 771); anchorPoint = (0, 0); clipsToBounds = YES; layer = <CALayer: 0x2828e58a0>>
+   |    |    |    | <UIView: 0x147304f80; frame = (0 0; 700 771); autoresize = W+H; layer = <CALayer: 0x2828e5880>>
+   |    |    |    |    | <WKCompositingView: 0x145d0cb50; frame = (0 0; 700 771); layer = <CALayer: 0x28288c160>> layerID = 1 "drawing area root"
+   |    |    |    |    |    | <WKCompositingView: 0x145f201c0; frame = (0 0; 700 771); anchorPoint = (0, 0); layer = <CALayer: 0x2828881c0>> layerID = 8 "content root"
+   |    |    |    |    |    |    | <WKCompositingView: 0x145f20050; frame = (0 0; 700 771); layer = <CALayer: 0x282888580>> layerID = 9 "RenderView 0x1024f50a0"
+   |    |    |    |    |    |    |    | <WKCompositingView: 0x145f1e8a0; frame = (0 0; 0 0); layer = <CALayer: 0x282888220>> layerID = 10 "TileGrid container"
+   |    |    |    |    |    |    |    |    | <WKPlainRemoteLayer: 0x282896220> layerID = 16 "tile at 0,0" (layer)
+   |    |    |    |    |    |    |    | <WKCompositingView: 0x145f1ea10; frame = (0 0; 0 0); layer = <CALayer: 0x282888280>> layerID = 11 "Page TiledBacking containment"
+   |    |    | <_UILayerHostView: 0x145f25e00; frame = (0 0; 0 0); layer = <CALayerHost: 0x2828924c0>>
+   |    | <UIView: 0x147508450; frame = (0 0; 0 0); anchorPoint = (0, 0); opaque = NO; layer = <CALayer: 0x2828f1fc0>>
+   |    | <_UIScrollViewScrollIndicator: 0x14750d510; frame = (694 -39; 3 36); alpha = 0; autoresize = LM; layer = <CALayer: 0x2828f3f60>>
+   |    |    | <UIView: 0x14750d6a0; frame = (0 0; 3 36); layer = <CALayer: 0x2828f3f80>>
+   |    | <_UIScrollViewScrollIndicator: 0x14750d210; frame = (-39 765; 36 3); alpha = 0; autoresize = TM; layer = <CALayer: 0x2828f3ee0>>
+   |    |    | <UIView: 0x14750d3a0; frame = (0 0; 36 3); layer = <CALayer: 0x2828f3f00>>
+<WKWebView: 0x14681ba00; frame = (0 0; 700 771); layer = <CALayer: 0x2828fd280>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKScrollView: 0x14800e800; baseClass = UIScrollView; frame = (0 0; 700 771); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x282681dd0>; layer = <CALayer: 0x2828e59a0>; contentOffset: {0, 0}; contentSize: {700, 771}; adjustedContentInset: {0, 0, 0, 0}>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+2021-05-24 14:05:40.033037+0800 TestWebviewScrollVO[381:11006] [Accessibility] WKContentView[@] set up: @ pid: @ MACH_PORT 1207998464
+<WKContentView: 0x148009800; frame = (0 0; 700 771); anchorPoint = (0, 0); gestureRecognizers = <NSArray: 0x28268f660>; layer = <CALayer: 0x2828e4ac0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 1first vo:AXRemoteElement:0x283db3280 - pid: 383, mach port: 0 context: 1612944059, uuid hash: -4874849021435984722 uuid: 1C481C88-640A-49A7-80E6-302A451A44F0
+	Parent: <WKContentView: 0x148009800; frame = (0 0; 700 771); anchorPoint = (0, 0); gestureRecognizers = <NSArray: 0x28268f660>; layer = <CALayer: 0x2828e4ac0>>[<UIWindow: 0x145f06e00; frame = (0 0; 414 896); gestureRecognizers = <NSArray: 0x2826b15f0>; layer = <UIWindowLayer: 0x2828e0120>>]
+	Child: (null)
+<UIView: 0x147305840; frame = (0 0; 700 771); anchorPoint = (0, 0); clipsToBounds = YES; layer = <CALayer: 0x2828e58a0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<UIView: 0x147304f80; frame = (0 0; 700 771); autoresize = W+H; layer = <CALayer: 0x2828e5880>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145d0cb50; frame = (0 0; 700 771); layer = <CALayer: 0x28288c160>> layerID = 1 "drawing area root", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f201c0; frame = (0 0; 700 771); anchorPoint = (0, 0); layer = <CALayer: 0x2828881c0>> layerID = 8 "content root", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f20050; frame = (0 0; 700 771); layer = <CALayer: 0x282888580>> layerID = 9 "RenderView 0x1024f50a0", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f1e8a0; frame = (0 0; 0 0); layer = <CALayer: 0x282888220>> layerID = 10 "TileGrid container", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f1ea10; frame = (0 0; 0 0); layer = <CALayer: 0x282888280>> layerID = 11 "Page TiledBacking containment", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<_UILayerHostView: 0x145f25e00; frame = (0 0; 0 0); layer = <CALayerHost: 0x2828924c0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<UIView: 0x147508450; frame = (0 0; 0 0); anchorPoint = (0, 0); opaque = NO; layer = <CALayer: 0x2828f1fc0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<_UIScrollViewScrollIndicator: 0x14750d510; frame = (694 -39; 3 36); alpha = 0; autoresize = LM; layer = <CALayer: 0x2828f3f60>>, isAccessibilityElement: false, accessibilityLabel Optional("0 pages"), accessibilityValue: Optional("0%"), accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 4096),elementsCount: 0
+<UIView: 0x14750d6a0; frame = (0 0; 3 36); layer = <CALayer: 0x2828f3f80>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<_UIScrollViewScrollIndicator: 0x14750d210; frame = (-39 765; 36 3); alpha = 0; autoresize = TM; layer = <CALayer: 0x2828f3ee0>>, isAccessibilityElement: false, accessibilityLabel Optional("0 pages"), accessibilityValue: Optional("0%"), accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 4096),elementsCount: 0
+<UIView: 0x14750d3a0; frame = (0 0; 36 3); layer = <CALayer: 0x2828f3f00>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKWebView: 0x14681ba00; frame = (0 0; 700 771); layer = <CALayer: 0x2828fd280>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKScrollView: 0x14800e800; baseClass = UIScrollView; frame = (0 0; 700 771); clipsToBounds = YES; gestureRecognizers = <NSArray: 0x282681dd0>; layer = <CALayer: 0x2828e59a0>; contentOffset: {0, 0}; contentSize: {700, 771}; adjustedContentInset: {0, 0, 0, 0}>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKContentView: 0x148009800; frame = (0 0; 700 771); anchorPoint = (0, 0); gestureRecognizers = <NSArray: 0x28268f660>; layer = <CALayer: 0x2828e4ac0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 1first vo:AXRemoteElement:0x283db3280 - pid: 383, mach port: 0 context: 1612944059, uuid hash: -4874849021435984722 uuid: 1C481C88-640A-49A7-80E6-302A451A44F0
+	Parent: <WKContentView: 0x148009800; frame = (0 0; 700 771); anchorPoint = (0, 0); gestureRecognizers = <NSArray: 0x28268f660>; layer = <CALayer: 0x2828e4ac0>>[<UIWindow: 0x145f06e00; frame = (0 0; 414 896); gestureRecognizers = <NSArray: 0x2826b15f0>; layer = <UIWindowLayer: 0x2828e0120>>]
+	Child: (null)
+<UIView: 0x147305840; frame = (0 0; 700 771); anchorPoint = (0, 0); clipsToBounds = YES; layer = <CALayer: 0x2828e58a0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<UIView: 0x147304f80; frame = (0 0; 700 771); autoresize = W+H; layer = <CALayer: 0x2828e5880>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145d0cb50; frame = (0 0; 700 771); layer = <CALayer: 0x28288c160>> layerID = 1 "drawing area root", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f201c0; frame = (0 0; 700 771); anchorPoint = (0, 0); layer = <CALayer: 0x2828881c0>> layerID = 8 "content root", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f20050; frame = (0 0; 700 771); layer = <CALayer: 0x282888580>> layerID = 9 "RenderView 0x1024f50a0", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f1e8a0; frame = (0 0; 0 0); layer = <CALayer: 0x282888220>> layerID = 10 "TileGrid container", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<WKCompositingView: 0x145f1ea10; frame = (0 0; 0 0); layer = <CALayer: 0x282888280>> layerID = 11 "Page TiledBacking containment", isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<_UILayerHostView: 0x145f25e00; frame = (0 0; 0 0); layer = <CALayerHost: 0x2828924c0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<UIView: 0x147508450; frame = (0 0; 0 0); anchorPoint = (0, 0); opaque = NO; layer = <CALayer: 0x2828f1fc0>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<_UIScrollViewScrollIndicator: 0x14750d510; frame = (694 -39; 3 36); alpha = 0; autoresize = LM; layer = <CALayer: 0x2828f3f60>>, isAccessibilityElement: false, accessibilityLabel Optional("Vertical scroll bar, 1 page"), accessibilityValue: Optional("0%"), accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 4096),elementsCount: 0
+<UIView: 0x14750d6a0; frame = (0 0; 3 36); layer = <CALayer: 0x2828f3f80>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0
+<_UIScrollViewScrollIndicator: 0x14750d210; frame = (-39 765; 36 3); alpha = 0; autoresize = TM; layer = <CALayer: 0x2828f3ee0>>, isAccessibilityElement: false, accessibilityLabel Optional("Horizontal scroll bar, 1 page"), accessibilityValue: Optional("0%"), accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 4096),elementsCount: 0
+<UIView: 0x14750d3a0; frame = (0 0; 36 3); layer = <CALayer: 0x2828f3f00>>, isAccessibilityElement: false, accessibilityLabel nil, accessibilityValue: nil, accessibilityHint: nil, accessibilityTraits UIAccessibilityTraits(rawValue: 0),elementsCount: 0

@@ -1,0 +1,1046 @@
+<html class="apple-mail-light-only">
+
+<head>
+  <style type="text/css" title="x-apple-mail-formatting"></style>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <title>開發者週報 #92 停電也是能寫 Code 的</title>
+  <style>
+    @media screen and (min-width: 481px) {
+      .share-button-container {
+        height: 38px;
+      }
+    }
+
+
+    @media screen and (min-width: 481px) {
+      .share-button-container a.comment {
+        height: 38px;
+        line-height: 38px;
+        padding-right: 10px;
+      }
+    }
+
+
+    @media screen and (max-width: 480px) {
+      .share-button-container .separator {
+        display: block;
+        margin: 0;
+        height: 8px;
+        border-left: none;
+      }
+    }
+
+
+    @media screen and (max-width: 480px) {
+      .share-button-container a.share.first img {
+        padding-left: 0;
+      }
+    }
+
+
+    @media screen and (min-width: 481px) {
+      .share-button-container a.mobile {
+        display: none !important;
+      }
+    }
+
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+
+      .post .markup table.image-wrapper img,
+      .post .markup table.kindle-wrapper img {
+        max-width: 550px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      .post .markup iframe.spotify-wrap,
+      .post .markup a.spotify-wrap {
+        width: auto !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      .post .markup div.youtube-wrap div.youtube-screen,
+      .post .markup div.vimeo-wrap div.youtube-screen {
+        display: none !important;
+      }
+    }
+
+
+    @media print {
+      .post .markup .button-wrapper {
+        display: none;
+      }
+    }
+
+
+    @media screen and (min-width: 768px) {
+      .post {
+        padding: 15px 0;
+      }
+    }
+
+
+    @media screen and (min-width: 768px) {
+      .post-silhouette {
+        padding: 15px 0;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .post-silhouette .post-silhouette-title {
+        margin-top: 10.44225025px;
+        height: 120px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .post-silhouette .post-silhouette-meta {
+        width: 75%;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .post-silhouette .post-silhouette-meta.with-byline-image {
+        margin: 20px 0;
+      }
+    }
+
+
+    @media screen and (max-width: 370px) {
+      table.post-meta tr td.post-meta-item {
+        font-size: 12px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .post-preview>.post-preview-image {
+        display: none;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .post-preview-silhouette .post-preview-silhouette-image {
+        display: none;
+      }
+    }
+
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+
+      .use-theme-bg .post .markup table.image-wrapper img,
+      .use-theme-bg .post .markup table.kindle-wrapper img {
+        max-width: 550px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      .use-theme-bg .post .markup iframe.spotify-wrap,
+      .use-theme-bg .post .markup a.spotify-wrap {
+        width: auto !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      .use-theme-bg .post .markup div.youtube-wrap div.youtube-screen,
+      .use-theme-bg .post .markup div.vimeo-wrap div.youtube-screen {
+        display: none !important;
+      }
+    }
+
+
+    @media print {
+      .use-theme-bg .post .markup .button-wrapper {
+        display: none;
+      }
+    }
+
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+
+      body .markup table.image-wrapper img,
+      body .markup table.kindle-wrapper img {
+        max-width: 550px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      body .markup iframe.spotify-wrap,
+      body .markup a.spotify-wrap {
+        width: auto !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      body .markup div.youtube-wrap div.youtube-screen,
+      body .markup div.vimeo-wrap div.youtube-screen {
+        display: none !important;
+      }
+    }
+
+
+    @media print {
+      body .markup .button-wrapper {
+        display: none;
+      }
+    }
+
+
+    @media screen and (min-width: 500px) {
+      body .header a.logo {
+        width: 42px;
+        height: 42px;
+        border-radius: 6px;
+      }
+    }
+
+
+    @media screen and (max-width: 420px) {
+      body .subscription-receipt table .subscription-amount .subscription-discount {
+        width: 72px !important;
+      }
+    }
+
+
+    @media screen and (min-width: 481px) {
+      body .share-button-container {
+        height: auto;
+      }
+    }
+
+
+    @media screen and (max-width: 480px) {
+      body .share-button-container .separator {
+        display: block !important;
+        margin: 0 !important;
+        height: 8px !important;
+        border-left: none !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      body .footer {
+        outline: 8px solid #f8f8f8 !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .digest .item .post-meta-item.audience {
+        display: none;
+      }
+    }
+
+
+    @media screen and (min-width: 500px) {
+      .digest-publication .logo img {
+        width: 42px;
+        height: 42px;
+        border-radius: 6px;
+      }
+    }
+
+
+    @media screen and (min-width: 541px) {
+      .user-profile-modal {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+    }
+
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+
+      table.thread-head .markup table.image-wrapper img,
+      table.thread-head .markup table.kindle-wrapper img {
+        max-width: 550px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      table.thread-head .markup iframe.spotify-wrap,
+      table.thread-head .markup a.spotify-wrap {
+        width: auto !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      table.thread-head .markup div.youtube-wrap div.youtube-screen,
+      table.thread-head .markup div.vimeo-wrap div.youtube-screen {
+        display: none !important;
+      }
+    }
+
+
+    @media print {
+      table.thread-head .markup .button-wrapper {
+        display: none;
+      }
+    }
+
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+
+      .use-theme-bg table.thread-head .markup table.image-wrapper img,
+      .use-theme-bg table.thread-head .markup table.kindle-wrapper img {
+        max-width: 550px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      .use-theme-bg table.thread-head .markup iframe.spotify-wrap,
+      .use-theme-bg table.thread-head .markup a.spotify-wrap {
+        width: auto !important;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+
+      .use-theme-bg table.thread-head .markup div.youtube-wrap div.youtube-screen,
+      .use-theme-bg table.thread-head .markup div.vimeo-wrap div.youtube-screen {
+        display: none !important;
+      }
+    }
+
+
+    @media print {
+      .use-theme-bg table.thread-head .markup .button-wrapper {
+        display: none;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .subscribe-widget form.form .sideBySideWrap button.rightButton {
+        padding: 10px 12px;
+        min-width: 112px;
+      }
+    }
+
+
+    @media screen and (min-width: 541px) {
+
+      .pub-icon:hover .logo-hover,
+      .feed-item-icon:hover .logo-hover {
+        display: block;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .audio-player-wrapper .audio-player .audio-player-progress {
+        border-left-width: 16px;
+        border-right-width: 16px;
+      }
+    }
+
+
+    @media screen and (max-width: 540px) {
+      .audio-player-wrapper .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup {
+        top: -54px;
+      }
+    }
+
+
+    @media not all and (min-resolution: 0.001dpcm) {}
+  </style>
+  <meta name="viewport" content="width = 716, initial-scale = -1">
+</head>
+
+<body class="email-body" style="font-kerning: auto;"><img
+    src="https://mailgun.substack.com/api/v1/email/open?token=eyJtIjoiPDIwMjEwNTIzMjIwMDE4LjEuZGRhM2M5MjliNGY5ZTEwZmNmNjQzYTIxMWJjMzg1ZTNAbWcyLnN1YnN0YWNrLmNvbT4iLCJ1Ijo0NDMzMDY3LCJyIjoiZGV2Y2F0QGNhdG9waWEub25taWNyb3NvZnQuY29tIiwiZCI6Im1nMi5zdWJzdGFjay5jb20iLCJwIjozNjc0NDI3NSwicyI6MTQxMzIsImMiOiJwb3N0IiwiZiI6dHJ1ZSwiaWF0IjoxNjIxODA3MjI3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.2UvOMZxtqC8lsxhRK7YbHfMtmZk7XCqq-DzFqbTxuUE"
+    alt="" width="1" height="1" border="0"
+    style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;">
+  <div
+    style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"
+    class="preview">Apple/iOS 開發者的一週大小事
+    2021/05/17-2021/05/23&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+  </div>
+  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" class="email-body-container">
+    <tbody>
+      <tr>
+        <td></td>
+        <td width="550" class="content"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td align="left" width="550" class="content">
+          <div
+            style="font-size: 16px; line-height: 26px; margin: 0 auto; max-width: 550px; overflow-wrap: break-word; width: 100%;">
+            <div class="preamble" style="font-size: 16px; line-height: 26px;">
+              <div class="body markup"
+                style="font-size: 16px; line-height: 26px; margin-bottom: 12px; word-break: break-word;">
+                <p
+                  style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0; margin-top: 0;">
+                  <strong>13 的 Apple 開發者週報</strong>自 2019 年起，每週免費提供 iOS 開發者資訊。如果週報對你很有幫助，請考慮<a
+                    href="https://email.mg2.substack.com/c/eJxNkM2OhSAMhZ_msjRQ8G_BYjbzGgahKBkFA_Ua336442YSUkjbU3o-awiXlG99pELsEya6D9QRr7IhEWZ2FsxTcFopKXnXs_pyYmgHFsrkM-JuwqYpn8iOc96CNRRS_AiEEhLYqk3rXDeCamG03I1z23k0bkbpey8FqOdbc7qA0aLGN-Y7RWSbXomO8pJfL_iu57qu5jCUMcXGpr1mkFYT19PERUgWNHAQvAUJwLkYGtE4Z6QdYZyVH1Fwb32npAEhZiuHFuVL8X2BppxzIWN_PlNZ1g7f1USt1ZiOYJoU92BzKsnTX0v1OdV7P2Oge8Jo5g3dg4AekH9QpgUj5grYTYa06EAMvAfou5E_lisj2fVKQd-yuoNLVRX1f1O_JcOL8A"
+                    style="color: #ff6b00; text-decoration: none;">捐款支持 13</a> 💪，可以讓我做得更好🙏</p>
+              </div>
+              <hr style="background: #f6e9df; border: none; height: 1px; margin: 24px 0; padding: 0;">
+            </div>
+            <div class="post" style="font-size: 16px; line-height: 26px; padding: 9px 0;">
+              <div class="post-header" style="font-size: 16px; line-height: 26px;">
+                <h1 class="post-title short published"
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 2em; font-weight: bold; line-height: 130%; margin: 0.378em 0 0 0;">
+                  <a href="https://email.mg2.substack.com/c/eJxVUk2PmzAQ_TXhVuQvvg4cto3SJQqs2s022RMy9pA4ITYCEwK_fp2kh1ayx_Z7M7b13ghu4WC6KW1Nb717KO3UQqph7BuwFjpv6KErlUwZoxSFked2EsdB7Km-rDuAC1dNarsBvHaoGiW4VUbfCzDDlHjHtMICQQgsqDirAy5lEiACERaVTFAt4uezfJAKtIAUrtBNRoPXpEdr235BXxZk5QbYI9fHgesDpn4_VL3l4uwLc3Fc62ZCFnRlzRn0gi5hWmNB_kx70pyzk0HFMp_z5Sfd_FiPFS3QX3wuTsJxGS3eR8V3K-SwW3HKbm_LF5qfsnt-K2iu3tR6lLvM5ttft3zOlMNnd37g9_s2-3XzuSsQ3yVDppGPvv-c423yLiM5im_NnrXhdpm_iuPp93XM7Af-mImKXmFje0-lBBGMAkIJQQjHPval5FQkJKlYnQB2KtUho5xgXAkaB0AXDF0O5D8VvC6VcHXyO85F0yruG31RojO9qe0jxTlUuvUyaGWnEjSvGpBP8-yzBR52lgfQ0LnWkCW3KQ4JjlFESBQm6GmWc5eGEWMkCjz3B2lclU7_NegLcJHIvw"
+                    style="color: #1a1a1a; text-decoration: none;">開發者週報 #92 停電也是能寫 Code 的</a></h1>
+                <h3 class="subtitle"
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #757575; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 19px; font-weight: normal; line-height: 1.16em; margin: 4px 0 0;">
+                  Apple/iOS 開發者的一週大小事 2021/05/17-2021/05/23</h3>
+                <table cellpadding="0" cellspacing="0" class="post-meta   custom" style="margin: 0 0 10px;">
+                  <tbody>
+                    <tr>
+                      <td class="post-meta-item author"
+                        style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 300; height: 20px; line-height: 20px; padding: 7px 12px 7px 0; position: relative; text-decoration: none; vertical-align: middle;">
+                        <a href="https://email.mg2.substack.com/c/eJxVkM2OhCAMx59muK2hBRUPHPayr2EQqpJVMICz8e2XGS-7SdM26ef_Z02hJaZLHzEX9nJjuQ7SgX7yRqVQYmemNHqnpRSCdz2rmQPVKubzOCei3fhNl3QSO85p89YUH8NrACQIZKtGq8B2LXWym5XlgvecEHB2k-oNDHCfNafzFCxpelK6YiC26bWUIz_E5wO_qlFZTVhPExYQTT6nXIz9bmzca-2geGxUE4ESVY8fIJjXyBF4iwKRc1ANNM4ZYQccJjkPBHy2cyeFQYDJCtWSeEi-L_hvOUva0bOqqrXq4-FNE8PubYo5zuXdUoWPNe5n8OUaKZhpI3czKTfZN6VxoUCpEnejKRo6BMV7xL4b-M2gQhNdLyX2Las_uFingv6r-xdl7Y9H"
+                          style="color: #757575; display: block; text-decoration: none;">13</a></td>
+                      <td class="post-meta-item post-date"
+                        style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 300; height: 20px; line-height: 20px; padding: 7px 12px 7px 0; position: relative; text-decoration: none; vertical-align: middle; white-space: nowrap;">
+                        May 23</td>
+                      <td class="post-meta-item icon"
+                        style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 300; height: 20px; line-height: 20px; padding: 7px 12px 7px 0; position: relative; text-decoration: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">
+                        <span><a
+                            href="https://email.mg2.substack.com/c/eJxVUtuO2jAQ_Rry1siXXB_y0G2gCoJsaVWWPEWOPYAhsaPYgQ1fX2fZSq1kHdtzsc_MHM4snPQwZb021puhtlMPmYK7acFaGLzRwFBLkQUBpSiKPXcSOAkTT5r6OAB0TLaZHUbw-rFpJWdWajUn4ABT4p0zkogYoYilaYBjIAjhJox4hOMo5AIl4vktG4UExSGDGwyTVuC12dna3izo1wVZuQX2zNR5ZOqEqW_GxljGrz7XnfOxXjq8YQfza3P0zOvLAIzPfBZ0ZfUV3J7DtMac7KcDaa_FRaMy3z62eUU339b3hpbo0_4oL9z5Clr-ukve7c8V_dk3JJCvciMV20kX31eHnXy9LMn2sgy2OZ-2F26Krn3wqYgK9YIrid7LfPnYysIUqnT32b5uq7cSsbd0LBTyq8169W7aVXKL7W55_50336FDL-_XnFQJW8kwr3d4ffih9mZBotF2tdHjwMGV8rcJn_YOhBy7ucS5dk9mBBGMQkLJ3PTEx74QjPKUpE1wTAGjIz9GAWUE44bTJAS6CFB3Iv811xsyATc3VedzqHvJfK06yQdt9NF-hLjB127vRiXtVINiTQviqQn7VNYHo_oECganOFEzm-GI4ATFhMRRip4acKKhURwEJA49x0Fol6Wyf-f-B_P-5qk"
+                            class="like-button"
+                            style="color: #757575; display: block; position: relative; text-decoration: none;"><img
+                              src="https://cdn.substack.com/image/fetch/w_30,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FHeartIcon%3Fv%3D2%26height%3D40%26strokeWidth%3D2"
+                              width="15" height="20"
+                              style="border: none !important; float: left; height: 20px; max-width: 15px; vertical-align: middle; width: auto;"
+                              alt=""></a></span></td>
+                      <td class="post-meta-item icon"
+                        style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 300; height: 20px; line-height: 20px; padding: 7px 12px 7px 0; position: relative; text-decoration: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">
+                        <a href="https://email.mg2.substack.com/c/eJxVUtuOmzAQ_ZrwVuQL1wceto3SJQqs2s022Sdk7CFxAjYCExa-fk2ylVrJHnnOzNjHc4YzAyfdTUmre-MspjBTC4mCsa_BGOicoYeukCLxPEpREDr2JHDkR47si6oDaJisE9MN4LRDWUvOjNRqKcAepsQ5JxXhpR_6nk9DQSsBDJdQ8YoGjPOI8urxLBuEBMUhgRt0k1bg1MnZmLZf0acV2dgF5szUeWDqhKnbD2VvGL-6XDc21todE2us24Aytmpj9BXUiq5h2mJO_kxHUl_Ti0b5Opuz9Tvd_diOJc3RFz7nF25jKc1fR8kOG2Sxj_ySfrysn2h2SZf8ltNMvsjtKA6pyfa_PrI5lRafrX_Hl_t2x239fsgRO8RDqpCLvv-co338KkIx8m_10WuD_Tp75ufL79uYmjf8NhMZPsPOsibBYJqi10PHwVL_-8svvAEhh2b50tJ0RyYEEYx8QglBCEcudoVglMckLr0qBoxsmwOPMoJxyWnkA115qDmR_7rndImAm5XNxqzVrWSuVo3kne51Ze4pVtli6eygpJkKUKysQTxEN4_RuTMqTqCgsyMlCmYSHBAcoZCQMIjRQ2Q7FTQIPY-EvmM5CG2rVPKvsJ8uWN1h"
+                          style="color: #757575; display: block; text-decoration: none;"><img
+                            src="https://cdn.substack.com/image/fetch/w_28,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIcon%3Fv%3D2%26height%3D40%26strokeWidth%3D2"
+                            width="14" height="20"
+                            style="border: none !important; float: left; height: 20px; max-width: 14px; stroke: #757575; vertical-align: middle; width: auto;"
+                            alt="Comment"></a></td>
+                      <td class="post-meta-item icon"
+                        style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; font-weight: 300; height: 20px; line-height: 20px; margin-right: 0; padding: 7px 12px 7px 0; padding-right: 0; position: relative; text-decoration: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">
+                        <span><a
+                            href="https://email.mg2.substack.com/c/eJxVktuOmzAQhp8G7op8IBwuuNg2SpcosGo322SvkLGH4ARsBCYsefqaZCttJXtkfzO2xzM_ZwZOup-TTg_GXUxh5g4SBdPQgDHQu-MAfSFF4vuUoiB07UrgaBW5ciiqHqBlsklMP4LbjWUjOTNSq-UA9jElbp0EjFWICL6KSRAJCnGIMRNVCX4QoJDFj2fZKCQoDglcoZ-1ArdJamO6waFPDtnYAaZmqh6ZOmHqDWM5GMYvHtet9XV2xsShm9G0xaDHnoND1_-CHBIsvAUhx9bye86fkGtlQJklumY9WMr48oMvwOgLLHuYt5iTP_ORNJf0rFG-zm7Z-p3ufmynkubok9_yM7e-lOavk2SHDbLsIz-nHy_rJ5qd0yW-4zSTL3I7iUNqsv2vj-yWSstvdn_ny32747Z5P-SIHeIxVchD33_eon38KkIx8W_N0e-C_Tp75vX593VKzRt-uxEZPsPODK5MCCIYrQglBCEcedgTglEek7j0qxgwqngV-JQRjEtOoxVQx0ftifxXWbdPBFxtS63PWt1J5mnVSt7rQVfmHmK7bovYtqOSZi5AsbIB8RCEecjqXu7iBAp6KzdRMJPggOAIhYSEQYweArCKoUHo-yRcuTYHoe0plXxt-l-HSuYX"
+                            style="color: #757575; display: block; text-decoration: none;"><img
+                              src="https://cdn.substack.com/image/fetch/w_22,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%26height%3D40%26stroke%3D%2523999999%26strokeWidth%3D2"
+                              width="11" height="20"
+                              style="border: none !important; float: left; height: 20px; max-width: 11px; vertical-align: middle; width: auto;"
+                              alt="Share"></a></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="post" style="font-size: 16px; line-height: 26px; padding: 9px 0;">
+              <div class="body markup"
+                style="font-size: 16px; line-height: 26px; margin-bottom: 12px; word-break: break-word;">
+                <h4
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.125em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0; margin-top: 0;">
+                  13的話</h4>
+                <blockquote style="border-left: 4px solid #ff6b00; margin: 1em 0;">
+                  <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;">
+                    本週有兩個時事梗。</p>
+                  <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;">停電
+                  </p>
+                </blockquote>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkLuu3CAQQL9mKS0YsIGCIk3qFOktDIMXxQYLxvdq_z7sXWk0D837BE-41_ZyV-3E3mql14Wu4Hc_kAgbuzu2NUenlJR80Wx4UZjZsNzX1BBPnw9H7UZ23duRg6dcy7tBKCGBPZ3l8yI0-sTR6JBMsqDUlpKEGEZOf9b6O2YsAR1-YXvVguxwT6KrP-SvB_weQt_5fdAU6jmiPzV5-tux7CPo5OnuwxHSKjBKztrYxVplYGbZAQfBZ5AAnAsziSlGL4MFu6lkUfAU0qKkByG2IM2M8qH4ucPU721MDv_eK1lzEb_GdyM3dL2yn2o5c2i110Q_JQPAOux5l0yvFYvfDowfNvQh_ENr3bFgG-Tj6smJBYThGkAvln9YDHhy0UqBntm4IdbRVRzS05fn7csu5H-0zZFx"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/PofatTseng.jpg"
+                        alt="Twitter avatar for @PofatTseng"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Pofat
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@PofatTseng</span></div>停電也是能寫 code
+                    的，我用M1。
+
+                    感覺好像廣告台詞<div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 17th 2021</p><span class="likes" style="display: inline-block; margin-right: 8px;"><span
+                          class="like-count" style="color: #1c2022; font-weight: bold;">43</span> Likes</span>
+                    </div>
+                  </a></div>
+                <blockquote style="border-left: 4px solid #ff6b00; margin: 1em 0;">
+                  <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;">校正
+                  </p>
+                </blockquote>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkU2OwyAMhU9TlhF_IcmCxUijXgMRcBqmCUTgtOrtx20lZIzh4cdH8Ai3Ul_2KA3ZOzh8HWAzPNsGiFDZ2aC6FK3WSnEzMMqiGPuRpeaWCrD7tFmsJ7DjnLcUPKaS3wKhhZJstRy4NOPYDyEsAEapSRswfe-jiHGa_betP2OCHMDCA-qrZGCbXRGPdlE_F3mlgc_0NtSFstPqr4DD6tvq0G93KjT0eDZKhJqMVnyQvZ56qbg2w0Vd6Z5fKViykkvBqS4l52LsRBejV2GS06yXCQRfwkJyL4WYgxp7UBfN95vs2jlTi3B_92fVRnjQU2mPYjmS70reU6illQU_R4iGo3k_c8KXg-znDeIXFH5xf9C5G2So9A3RebTCSDGSdTmYiX_BEEllBq3l0DPyEAupsgVcfV5Pn29C_QMROJVe"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/joe_trash_talk.jpg"
+                        alt="Twitter avatar for @joe_trash_talk"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">__難哥
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@joe_trash_talk</span></div>ㄒㄧㄠˋ正上架
+                    🌚🌚🌚 <div class="quoted-tweet"
+                      style="border: 1px solid #e1e8ed; border-radius: 4px; font-size: 14px; line-height: 18px; margin-top: 12px; padding: 10px;">
+                      <p style="color: #1c2022; display: block; font-size: 16px; line-height: 1.4; margin: 0;"><span
+                          class="quote-tweet-name"
+                          style="color: #1c2022; display: inline-block; font-size: 14px; font-weight: bold; padding-right: 5px;">weak
+                          self podcast </span><span class="quote-tweet-username"
+                          style="color: #697882; font-size: 14px;">@weak_self</span></p>🪧本集來不及後製，會延後至少一天上架
+                      https://t.co/eryHEKoEGE
+                    </div>
+                    <div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 23rd 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">1</span> Retweet</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">2</span> Likes</span>
+                    </div>
+                  </a></div>
+                <blockquote style="border-left: 4px solid #ff6b00; margin: 1em 0;">
+                  <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;">
+                    （<a
+                      href="https://email.mg2.substack.com/c/eJxVkEuOhCAQhk_TLA0UqLhgMZu-himhVDIKBrAn3n7odjOT1CupB_yfxUJLTJc5Yi7sHcZyHWQC_eSNSqHEzkxp9M4oJSXvelYrJ3Srmc_jnIh29Jsp6SR2nNPmLRYfw3tBKCGBrcaSUD1KJfWM3GroqAcCh1OnWm053s_i6TwFS4ZelK4YiG1mLeXID_n1gGc1KiuG9cSwCNnkc8oF7Xdj4157R_VBMG-Ag-AtSADOhW5E4xxKO8AwqXkgwWc7d0oiCDFZqVuSD8X3Bf7dY8k4elUhtVdjPDw2MezeppjjXD4jVetY834GX66RAk4buRtDuWF-wIwLBUoVshuxGNGB0LwH6LuB37IrJ9n1SkHfsvoHF-tWMH-l_gJUgIwq"
+                      style="color: #ff6b00; text-decoration: none;">看前一期</a>&nbsp;·&nbsp;<a
+                      href="https://email.mg2.substack.com/c/eJxVkE1uxCAMhU8zLCMw5G_Bopu5RkTAJKgJROBMlduXmWxaybKRHs_wPmsIl5QvfaRC7N0mug7UEX_KhkSY2VkwT8FppaTkXc_qyYmhHVgok8-IuwmbpnwiO855C9ZQSPFtEEpIYOvb6MEP3jiBoNA6a5zvW8WF7HjfmftZc7qA0aLGF-YrRWSbXomO8pBfD3jWQlpNXE8TFyGbcs6FjP1ubNqrxoIGDoK3IAE4F0MjGueMtCOMs_IjCu6t75Q0IMRs5dCifCi-L_BvE8va4atGqFrt6QimSXEPNqeSPH2u1JRTnfsZA10TRjNv6G4AdGP8IJkWjJgrXjcZ0qIDMfAeoO9GfgeuhGTXKwV9y-ofXKquqP-G_AW7Jorl"
+                      style="color: #ff6b00; text-decoration: none;">回首頁</a>）</p>
+                </blockquote>
+                <div style="font-size: 16px; line-height: 26px;">
+                  <hr style="background: #f6e9df; border: none; height: 1px; margin: 24px 0; padding: 0;">
+                </div>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  <strong>🧪iOS 14.6、iOS 14.7 beta</strong></h3>
+                <ul style="margin: 1em 0;">
+                  <li style="margin: 3.75px 0 3.75px 7.5px; mso-special-format: bullet;">
+                    <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><a
+                        href="https://email.mg2.substack.com/c/eJxVkU2O5CAMhU9T7DriL4EsWMxmrhE5YKpQJ4DAmVHdvqmqVUvINjwsP332QHgv7elq6cReYaNnRZfxfz-QCBu7OrYtBae1UnwxbFRB2Nmy1LfYEE9Ih6N2IavXfiQPlEp-NQgtlGQPp6IRYbZWBohGh1VoiKMwS9ztaqz6jIUrJMweHf7D9iwZ2eEeRLXf1J-b_DtOGMpRKrYJaj1w8uV8vRZ_nZjpPXbcU-lfqUIYqeGB0PErF8L-WxJ6W37rLDnJpeCzVFJyLuwkphBA-VWuu44rCh59XLQCKcTulZ1R3TQ_73Lq194J_PfLEWtu-BwQhjZiqQmmks_kW-kl0vvL4LSNfF450XPDDPuB4YOQPot4Q93umLGNBYUNyIlFCsuNlGZZ-QfZYKwWo7U0MxseQhld2SE9ID8uyHehfgCSz6MD"
+                        title="ArticleiOS &amp; iPadOS 14.6 Release Notes"
+                        style="color: #ff6b00; text-decoration: none;">iOS 14.6</a>、<a
+                        href="https://email.mg2.substack.com/c/eJxVkU2OwyAMhU9Tdo34S0gWLGYz14gccFI0CSBwZtTbD21WlZANPFt--uyAcEvlaXOqxF5hpmdGG_Gv7kiEhZ0Vyxy81VopPhjWbl6M_chCndeCeEDYLZUTWT6XPTigkOKrQWihJHvYcRhXLaQGHOUEzph18rAIv_a65864ayycPmB0aPEXyzNFZLt9EOV6U183-d2Ob8qeMpYOct6xc-l4_SZ3HhjpPba9Q6r3kMG3VHBHqHiPibB-SkLP5r4gwWcRC1ZyKXgvlZSci7ETnfeg3CSnRa8TCr66ddAKpBCLU2OP6qb5scmunkslcD8vW6zYZraRaFqLKQfoUjyCK6mmld4lDdbc8nHGQM8ZIyw7-osjXdt4k503jFjalvwMZMUgxciNlGaY-MWtgVaD0VqanjUPPrWuaJEeEB8nxE2of0cDpRc"
+                        title="ArticleiOS &amp; iPadOS 14.7 Beta Release Notes"
+                        style="color: #ff6b00; text-decoration: none;">14.7 beta 1</a></p>
+                  </li>
+                  <li style="margin: 3.75px 0 3.75px 7.5px; mso-special-format: bullet;">
+                    <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><a
+                        href="https://email.mg2.substack.com/c/eJxVkU1uxCAMhU8z7BqBTf4WLLrpNSICzgQ1gQicjnL7MjObVkIG_LD8-Ows0z3lyxypsHiGia-DTKRH2YiZsjgL5Sl4ozWi7HpRT14N7SBCmZZMtNuwGc4nieOct-AshxSfBUorBLEaCbLvsMcZ0I-0WO1bLRE1uBaBRni3tacPFB0Z-qF8pUhiMyvzUW74eYOvunxVtnRQbuxxbNS4tD-zyZ07RX61rfeHZbem8pFpI1voIyam8iffT-1_TQQDEpRsAQGkVEOjGu8tuhHGWS8jKbm4pdNoQanZ4dAS3rTc79CUcy5s3ffTisimGqy_r1qN6Qi2SXEPLqeSFn49qYCmuu9nDHxNFO28kX-z4_cEXjSnO0XKdTJ-smxUB2qQPUDfjfLNqsLFrtca-lZUDz7VqmiIVxvX08a7wl8-BKAY"
+                        title="ArticlewatchOS 7.5 Release Notes" style="color: #ff6b00; text-decoration: none;">watchOS
+                        7.5</a>、<a
+                        href="https://email.mg2.substack.com/c/eJxVkUtuxCAMhk8z7CbilYQsWHTTa0QOmAlqAhE4rXL7MjObVrJs8EP-9dkB4SOXyx65Enu6ma4DbcKfuiERFnZWLHP0Vmul-DCy9vLC9IbFOoeCuEPcLJUT2XEuW3RAMafngNBCSbbaZeILYuiFmIIJShktFYIZpQlGjIDvtXD6iMmhxW8sV07INrsSHfWmPm7ys5lvlS0fWDo4jg07l_dnNrtzx0Svte3_A-TWXO8FN4SK95QJ65_8OA_3BQn-N7BoJZeC91JJybkwnei8B-UmOS06TCh4cGHQCqQQi1OmR3XTfH_Irp5LJXBfTz2s2KayIWi15vMRoctpj67kmgO9WhqlucX9TJGuGRMsG_o3QHqf4YV0fmDC0s7jZyArBikMH6Uch4m_gTXCahi1lmPPmgaf21SySCuk9YT0EOoXvH6ivw"
+                        title="ArticlewatchOS 7.6 Beta Release Notes" style="color: #ff6b00; text-decoration: none;">7.6
+                        beta 1</a></p>
+                  </li>
+                  <li style="margin: 3.75px 0 3.75px 7.5px; mso-special-format: bullet;">
+                    <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><a
+                        href="https://email.mg2.substack.com/c/eJxVkUluxCAQRU_T7GIxeliwyCbXsBjKbhQbEJQ78u2D28oiEvpADarPwxmENZVT51SRXDLjmUFH-KkbIEIhR4UyB6-lFIL2A2knz0Y1klDnpQDsJmwaywEkH3YLzmBI8WpgkglOnppaJX0TYZfFLWqavOE9OCWVh0FaeY81hw8QHWh4QTlTBLLpJ2KuD_H54F9t-ZbZUobSmZw36Fzar2hyxw4R32PbHV-pfhTYwFT4iAmh_gWZnPv_GRI0p5xRxQXnlLKxY533RriJT1YuEzDaHPdSGM6YdWJUIB6S7ivv6mErGvd9uSBFN2_t4S3XNOVguhT34EqqacF3SWMzt30_YsBzhmjsBv7Ghjf8N8h5hQilfYqfDWrWczbSgfOhn-iNqXEV_SAlHxRpHnxqXVEDPk18HiauTPwCjSmfSw"
+                        title="ArticletvOS 14.6 Release Notes" style="color: #ff6b00; text-decoration: none;">tvOS
+                        14.6</a>、<a
+                        href="https://email.mg2.substack.com/c/eJxVkU1uxCAMhU8z7CYCQ0KyYNFNrxHx42RQE4jAaTW3LzNRF5WQAT8sPz57S7jm8jRHrsReYabngSbhT92QCAs7K5Y5BqOUlHzQrJ2CGPuRxTovBXG3cTNUTmTH6bboLcWcXgVCCQnsYeyggwu9dzDCNIF3kwboB29HLbQSeLW1Z4iYPBr8xvLMCdlmHkRHvcmPG3y2FZqy5QNLZ49jw87n_ZXN_twx0bttu9N3rveCG9qK95QJ619SqFnfHZL9L7NogIPgPUgAzsXYiS4EK_0Ek1PLhIIvfhmUtCCE83LsUd4U31fo6ukqWf_1ssKKaQbb75vWYj6i7XLaoy-55oXeTxqgue37mSI9Z0zWbRgudnRN4E1zXjFhaZMJsyUjBhAjb8j0MPGLVYMrB60U6J41DyG3qmSQHjY9TptWIX8Bz1agXA"
+                        title="ArticletvOS 14.7 Beta Release Notes" style="color: #ff6b00; text-decoration: none;">14.7
+                        beta 1</a></p>
+                  </li>
+                  <li style="margin: 3.75px 0 3.75px 7.5px; mso-special-format: bullet;">
+                    <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0;"><a
+                        href="https://email.mg2.substack.com/c/eJxVkUtuxCAMhk8z7BLxGkIWLLrpNSICToKaQASm1dy-ZCJVqmTZ4If867OzCGvKL3OmguRyE75OMBF-yg6IkEktkKfgjZRCUDWQ9vJMPzUJZVoywGHDbjBXIGed9-AshhSvASaZ4GQzyks2LBq8kqDcrCksi6ZyVIOGwXp5r7XVB4gODHxDfqUIZDcb4lke4uPBP5v5VtnTCbm357lD79JxZZOrB0R8r23_w7pUugw72AJdTAjlLzuHtSs1d4xN8n8LCYZTzuiTC84pZbpnvfdWuJGPs1xGYHRxi5LCcsZmJ_QTxEPSY-V9qXNB674uPSSbprIhaLXm0xlsn-IRXE4lLfhuaZSmFo8aA74miHbewd8A8T7DG-m0QoTczuMni4YpzjQdOB_USG9gjbBQg5R8eJKmwac2FQ3gZuNWbVyZ-AWQ1qJ1"
+                        title="ArticlemacOS Big Sur 11.4 Release Notes"
+                        style="color: #ff6b00; text-decoration: none;">macOS Bug Sur 11.4</a>、<a
+                        href="https://email.mg2.substack.com/c/eJxVkcluxCAMhp9muCViy3bg0EtfI3LAZFATiMC0mrcvMyNVqmTZ4EX-9dkC4Z7yw1ypEHu6lR4Xmog_5UAizKwWzGtwRmul-Dix9nJiHmYWyuoz4gnhMJQrsqtuR7BAIcXngNBCSXY3i1fjxMdZTuj9YoHPWvhBjhwUX6yy77VQXcBo0eA35keKyA5zJ7rKTX3c5Gcz1ypHujD3cF0H9jadz2yy9cRIr7Xtf4JNpct4IBTsYiIsf9kt7F2puRNiHboNCf73sWAkl4IPUknJuZh70TsHyi5y2bRfUHBv_agVSCE2q-YB1U3zc5d9qVshsF9PUSybJrVxaLXm0xWgT_EMNqeSPL1aGqq1xbPGQI8VI2wHujdFet_ixXXdMWJuN3IrkBGjFDOfpJzGhb-pNcwNrtZyGljT4FKbigbpDvFeIe5C_QLwkKOa"
+                        title="ArticlemacOS Big Sur 11.5 Beta Release Notes"
+                        style="color: #ff6b00; text-decoration: none;">11.5 beta 1</a></p>
+                  </li>
+                </ul>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Xcode 沒有更新。</p>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  💪Apple 預覽 Accessibility 新功能（<a
+                    href="https://email.mg2.substack.com/c/eJwlUUkO5CAMfE1zS8SWkBw4zGW-EbGYBE0CiKWj_v2QbgmVsXCZctmoCnvMH5liqeiBrX4SyAB3OaFWyKgVyJu3knPG8CxQv1myTAvyZXMZ4FL-lDU3QKnp0xtVfQwPgXDCKDqkcJjrVTitphWEXdaJrMIy0Ks2i5rt71vVrIdgQMIb8icGQKc8ak3lxf686N9-7vseVUonjCZePa93h0dojt-cYkp6wFOHb92QMrx9LxhSvCG7dg4lunqrDENLto9eBgvF7wHs4GIeEsSHdvt6DNYXpf3pq4fSGyIvn_54ooxSjMkyktFaxcxKV83dCgQ742bOFCVEG7ZMwF4cXzsdS9OlKvPvkY2ytPDuHvW3jjF5NcZweZPjI-1b0m3cerxa8PWzQVD6BPtzuP729PV82yFA7kPYTVVJZkoWLCgV84p_jvYVsFlwTsWEugYbOytIqIcKR1NhJ-w_XEut7Q"
+                    style="color: #1a1a1a; text-decoration: underline;">官方新聞稿</a>）</h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">
+                  手錶展示影片，應該會對騎車時要接電話這類情境很方便吧。</p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkMuOwyAMRb-mLCPAhCQLFrOZ34h4mAZNAhGPVvn7Ia2EzEW28fWxuuIz5UudqVRyh7VeJ6qI77JjrZhJK5jX4JQQAFROpCvH5nEmoaw-Ix467KrmhuRsZg9W15Di3cAEA042tQhjvBsNGDlqOXkAQ6203jn0DqX8jtXNBYwWFb4wXyki2dVW61ke8PPgv_3Ud7gNDTYd_VV01tvVWrh11bWVLhgsI13GeRES6DwD8G5TccoZHTlwTimbBzY4p8EufDHCL8iot14K0JwxY2EeER6CHk8-lGb6z_bvnkiycvjqy_Vcj-kMekjxCDanknz9lPT9134fLYZ6rRi12dF90dQv4A-s9YkRcwfvVl0Vk5zNdOJ8kgv9oujsQE5C8Gkk3YNLvSsqrJuOW9PxyeAfox6SWA"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/sarahyuui.jpg"
+                        alt="Twitter avatar for @sarahyuui"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Sarah
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@sarahyuui</span></div>my team at Apple
+                    Accessibility is incredible!
+
+                    on Apple Watch, you can now answer calls, check your notifications or end a workout using ONLY hand
+                    gestures ⌚️✊🏼👌🏼
+
+                    + much more here:
+                  </a><a class="tweet-url"
+                    href="https://email.mg2.substack.com/c/eJwtUUmu7CAMPE2zS8SUacHibf41IgaToJcAYugot_-k-0mobITLLhdaFthCukUMuaAH1nJHEB6ufEApkFDNkFZnBOeM4XFCLTNkHmbk8moTwCndIUqqgGJVh9OyuOAfAuGEUbQLydg4aMslHhdl5onNoKwyEzCsppHh71hZjQOvQcAb0h08oEPspcT8Yj8v-q-d67p6GeMBvQ5nuz8aU_ikFFPSAh4afEq6mODtWkEXwwXJ1qPLwZZLJuhqNG3r3BnIbvNgOhtSFyE8tMuVvTMuS-UOVxzk1hA58fTHA2WUYkzmnvTGSKYXuihuFyDYajtyJikhSrN5APbi-Nxon6vKRerfRzFKwsC72dPeGoboZB_86XQKj7RPSXNwbfGs3pV7BS_VAeZrbvl-0cfudQMPqS1hVlkEGSmZ8UTpNC5_Zjb32ThxTqcBNQ0mNJYXUHbp9yr9Rth_vsWsGA"
+                    target="_blank"
+                    style="color: #1ca1f2; display: block; text-decoration: none; white-space: pre-wrap;">apple.com/newsroom/2021/…</a>
+                  <img class="tweet-photo"
+                    src="https://cdn.substack.com/image/upload/w_728,c_limit/l_twitter_play_button_rvaygk,w_120/jnpznnozsyuphk0dehwl"
+                    alt="Image"
+                    style="-moz-border-radius: 5px; -ms-interpolation-mode: bicubic; -webkit-border-radius: 5px; border: none !important; border-radius: 5px; cursor: pointer; display: block; height: auto; margin: 0 auto; margin-top: 8px; max-width: 550px; vertical-align: middle; width: 100%;">
+                  <div class="tweet-footer"
+                    style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                    <p class="tweet-date"
+                      style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                      May 19th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                        class="rt-count" style="color: #1c2022; font-weight: bold;">1,232</span> Retweets</span><span
+                      class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                        style="color: #1c2022; font-weight: bold;">6,067</span> Likes</span>
+                  </div>
+                </div>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  💡遠端工作生產力技巧</h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">分成個人生產力與團隊合作兩串，十分推薦閱讀。
+                </p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkLmOxCAMhp9mKCOuHBQU22y9xfYRh5NBm0AEzozy9uuZkZGx5d_YfMEhrKVe9igN2cvNeB1gMzzbBohQ2dmgzilarZXiw8goimLqJ5bavFSA3aXNYj2BHaffUnCYSn41CC2UZHfrTTRTWBYevQfVG7IQg5i4C7z3JHmPdWdMkANYeEC9Sga22Tvi0W7q6ya_6eAzvRbqQtkp-ymLw98GeaWkocOzUSCU0ZMYtRDc8J6bSWqWrORS8F4qKTkXUye6GJ0KRhqvFwOCL2EZtHJSCB_U1IO6ab6vsmunp5fD32skqzbCg35HNfLlSK4reU-hllYWfEsIwEz3fuaE1wzZ-Q3ihw1-CL9pzStkqEQ-zg6tGCSxGKUcB8M_LAieGkat5dgz2iEW6soW8O7y_XR5FeofQuCR0Q"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/PofatTseng.jpg"
+                        alt="Twitter avatar for @PofatTseng"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Pofat
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@PofatTseng</span></div>
+                    身為遠端工作五年有的肥宅，以可長期持續為目標，以下提供一些撇步望有助：
+
+                    ［個人生產力］
+                    1. 務必弄個專用的工作空間，因方便直接在餐桌上或沙發上都會影響生產效率，因是跟非工作生活過度重疊，容易分心或開始做其他的事。看預算和狀況進行環境打造，至少把桌子某一角清空，這裡只工作其他時間不用
+                    <div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 19th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">150</span> Retweets</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">571</span> Likes</span>
+                    </div>
+                  </a></div>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkLuu5CAMhp9mKCNsyIWCYputt9g-ImAyaBOIwDlH8_bLnJEsXwT2b3_eMe2lvuxVGou3W_l1kc303Q5ipiruRnVNwWqtlJxm0bMAy7iI1NZYiU6XDsv1JnHd25G841TyuwE0KBRPO-JsJtpAxy2ilKOZIzkjF5oIvVLqI-vukCh7svRF9VUyicM-ma_2UL8e-Lsbf6f3QoMvZ6_-lOj4b6O896Kx47v1BJTRC4KCCUYzSokGRLIoEeSICrs8LAMMITjlDZpNR0Mgo4-TVg4BNq-WkdRDy3PHod1bn-z_vSVFtYG--nX9rftyJTeUfCZfSyuRf750AGuP550Tv1bKbjsofNjwh_APrXWnTLWTD6tjCxPCImfEeTLyw6LDU9OsNc6j6DuE0ruyJX66_Lxd3kH9B0pSkRE"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/PofatTseng.jpg"
+                        alt="Twitter avatar for @PofatTseng"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Pofat
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@PofatTseng</span></div>
+                    遠端工作小撇步，不同主題另起一個 thread
+
+                    [團隊合作］
+                    1. 事先約定時間：遠端工作的基礎在於信任，其中一個最容易炸的就是「找不到人」，我會事先跟共事者知會什麼時候找我都找得到（會立即回覆），可以隨時call
+                    我討論，其它時間則是會慢一點，但大致上我還是滿常保持 responsive<div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 19th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">36</span> Retweets</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">162</span> Likes</span>
+                    </div>
+                  </a></div>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  📹iPad Pro M1 Center Stage</h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">我是覺得如果要長期 WFH
+                  的話，可以考慮買一台來當視訊會議專用機😂</p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkM2OhSAMhZ_msjT8ibpgMZt5DYNQlIyCgXJvfPvBa0LKIW3p6WcNwprypc9UkNxhxusEHeFTdkCETGqBPAenpRSCqoE05djYjySU2WeAw4RdY65AzrrswRoMKd4NTDLByaZ5vzDvjXG8NzDQxYrRSTko44VYwLNnrKkuQLSg4Q35ShHIrjfEs7zEz4v_toOfcBvqbDra6x0wWBuaKmiwliaYmHpKxdhPalAjH5ScSNCcckZ7LjinlI0d65wzwk58WqSfgFFvvZLCcMZuZz2Il6THyrtSl_az_bvnkawdvNtqLddiOoPpUjyCzakkj9-Stv3c7qPGgNcM0Sw7uAcMPni_qOYVIuSG3c0GNVOcjXTgzexEHxCNnFCDlHzoSfPgUuuKGnAzcasmrkz8A6xhkPg"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar" src="https://cdn.substack.com/image/twitter_name/w_36/viticci.jpg"
+                        alt="Twitter avatar for @viticci"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Federico
+                        Viticci </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@viticci</span></div>I also tested
+                    Center Stage extensively. But I went beyond FaceTime and video calls:
+
+                    We built a custom Center Stage app using the official API.
+
+                    There are videos. And this GIF.
+
+                  </a><a class="tweet-url"
+                    href="https://email.mg2.substack.com/c/eJwtkc2utCAMhq9m2Gmg4N-Cxdl8t2EQqpKjYKCO8e4_ZjwJKS3lLe2DNYRLTLc-Yib2MSPdB-qAV96QCBM7M6bRO62UlLztWPGc6Jue-TzOCXE3ftOUTmTHOW3eGvIxfARCCQls1RxmCbyxvFOiVTA7NSNK6yZjrCsln2fN6TwGixrfmO4YkG16JTryS_684F9Z13XVu7GZYvKY64BUDv-i4vnDuOpIsQIOokr49nh9hdJiKINUmcyCzOtPnjcgATgXfS1q54y0AwyTmgcUfLZzq6QBISYr-wblS_F9gTqfUylhf2sbd5a0w3eZteSKjYc3dQy7tynmONP3SsExln0_g6d7xGCmDd1Dih7eX3bjggFT-Qc3GtKiBdHzDqBrB_6QKShl2ykFXcNKDy4WVdBIqwnracIi5H-F65jw"
+                    target="_blank"
+                    style="color: #1ca1f2; display: block; text-decoration: none; white-space: pre-wrap;">macstories.net/stories/ipad-p…</a>
+                  <img class="tweet-photo"
+                    src="https://cdn.substack.com/video/upload/e_loop,vs_40/pv2c9zpr8juyp7oajeka.gif" alt="Image"
+                    style="-moz-border-radius: 5px; -ms-interpolation-mode: bicubic; -webkit-border-radius: 5px; border: none !important; border-radius: 5px; cursor: pointer; display: block; height: auto; margin: 0 auto; margin-top: 8px; max-width: 550px; vertical-align: middle; width: 100%;">
+                  <div class="tweet-footer"
+                    style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                    <p class="tweet-date"
+                      style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                      May 19th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                        class="rt-count" style="color: #1c2022; font-weight: bold;">21</span> Retweets</span><span
+                      class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                        style="color: #1c2022; font-weight: bold;">250</span> Likes</span>
+                  </div>
+                </div>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  📺新款 Apple TV 4K 的一些觀察</h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">
+                  剛發表的時候我覺得這代滿沒有升級的誘因。不過看到一些評測之後還是有些亮點：</p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJxNkMluwyAQQL8mHC2GzfjAoZf-hoVhnKDaYME4kf--pLlUGs2i2V_whPdSL3eURuytZroOdBlfbUMirOxsWOcUnVJScjOy7kWw2rLU5rUi7j5tjuqJ7DiXLQVPqeR3AyiQgj3cypWxKNBOQS7jKg0abjlXWmlrLJjPWn_GhDmgwyfWq2Rkm3sQHe0mv27iuwu90vugIZS9R0gPnx-nz3eQPWzk6WzdATkZAD5ZDaCVtUIblpzgArgWUgjOwQ4wxOhlmMS0qHVC4GtYjZJeACxBWo3ypvh-F0M7lz45_LyXsuoiPvt_Pdd1OZIfSt5TqKWVlf5KOoK52_3Mia4Zs182jB869GH8x2u-Y8ba2cfZkwMjwPJRiNFM_EOj45NmVEqMmvUbYuld2f3_-ReGqZD2"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/ethanhuang13.jpg"
+                        alt="Twitter avatar for @ethanhuang13"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">13
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@ethanhuang13</span></div>原來 Apple TV
+                    4K(2021) 有支援 ARC/eARC，這倒是引起了我一點興趣🤔
+
+                    意思是，聲音可以從 PS5 等來源透過 HDMI 輸入電視（要有 ARC 或 eARC 功能），再輸出到 Apple TV，再無線輸出到 HomePod
+
+                    換句話說，如果有兩顆 HomePod，可以買新 Apple TV 4K 來組個家庭劇院的替代品。效果好不好還要看更多評測 <div class="quoted-tweet"
+                      style="border: 1px solid #e1e8ed; border-radius: 4px; font-size: 14px; line-height: 18px; margin-top: 12px; padding: 10px;">
+                      <p style="color: #1c2022; display: block; font-size: 16px; line-height: 1.4; margin: 0;"><span
+                          class="quote-tweet-name"
+                          style="color: #1c2022; display: inline-block; font-size: 14px; font-weight: bold; padding-right: 5px;">withUnsafeBytes
+                          { </span><span class="quote-tweet-username"
+                          style="color: #697882; font-size: 14px;">@ximigen</span></p>Test Apple TV ARC: output sound
+                      from PlayStation to HomePod, no significant delay https://t.co/5dlV01pwAg
+                    </div>
+                    <div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 22nd 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">1</span> Retweet</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">18</span> Likes</span>
+                    </div>
+                  </a></div>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJxNkE2OwyAMhU9TlhEG8sOCxWzmGhEBp0WTQAROq9x-3OlmJGRswbOfv-AJ76Ve7iiNxDvMdB3oMr7ahkRYxdmwzik6Y7SWwyg4izD1k0htXivi7tPmqJ4ojnPZUvCUSn4LwIBW4uHisCwmRFhN8HaaFsQV5bR6q3qDYPVnrD9jwhzQ4RPrVTKKzT2IjnbTXzf1zYde6W2oC2XnCunh8-P0-Q6ay0aezsYJaDtALzU7tH3fWxi1SE5JBbJXWikpYeqgi9HrYJVdzGoR5BrWwWivAJbAUtQ3I_e76tq5cOfw8x4qqov45P34jWM5ku9K3lOopZWV_r4wgpnv_cyJrhmzXzaMHzr0YfzHa75jxsrs4-zJwaBgkqNS42Dlhwbj08NojBp7wR5iYVV2_3f-Bawmkqg"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/ethanhuang13.jpg"
+                        alt="Twitter avatar for @ethanhuang13"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">13
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@ethanhuang13</span></div>新款 Apple TV
+                    遙控器有滿多巧思跟改良。包括「加大厚度以避免掉進沙發縫隙」😂 我個人比較好奇的是，內圈觸控板真的有改的比較精準？
+                  </a><a class="tweet-url"
+                    href="https://email.mg2.substack.com/c/eJwlkcuOhSAMhp_msNNw87ZgMZt5DYNQlYwCgXJOfPvBY0LaPy1_2nw1GmEL6VIxZCR3mPGKoDx88gGIkEjJkGZnlZRC0H4gVVk2diNxeV4TwKndoTAVILEshzMaXfC3gUkmONmV0RNd7DD0FnTHtTDjMC5skHIFaWFcn7G6WAfegII3pCt4IIfaEWN-iZ8X_63vDIs7IF-pxNaEs1Y45awm2t36VjrGA5p3bNCdDX4gWb0fDerjLzdPD9_N7Wo2fTq_NWvBkqA6iVN3nXZccE4pG1vWWluXnfi0yHUCRlez9lJozthixNiBeEl6brzNZcmozd-9FEnKwrsyqL0aQ3S6Df50JoUcVvx-qZjmms_iHV4zeL0cYB-C-Nzhy3TewEOq97GzRsV6zkY6cD70E32IVcSirxj50JG6gw3V5RXgrv1etN-Y-AdFc5_w"
+                    target="_blank"
+                    style="color: #1ca1f2; display: block; text-decoration: none; white-space: pre-wrap;">mobilesyrup.com/2021/05/21/app…</a><a
+                    class="expanded-link"
+                    href="https://email.mg2.substack.com/c/eJwlkcuOhSAMhp_msNNw87ZgMZt5DYNQlYwCgXJOfPvBY0LaPy1_2nw1GmEL6VIxZCR3mPGKoDx88gGIkEjJkGZnlZRC0H4gVVk2diNxeV4TwKndoTAVILEshzMaXfC3gUkmONmV0RNd7DD0FnTHtTDjMC5skHIFaWFcn7G6WAfegII3pCt4IIfaEWN-iZ8X_63vDIs7IF-pxNaEs1Y45awm2t36VjrGA5p3bNCdDX4gWb0fDerjLzdPD9_N7Wo2fTq_NWvBkqA6iVN3nXZccE4pG1vWWluXnfi0yHUCRlez9lJozthixNiBeEl6brzNZcmozd-9FEnKwrsyqL0aQ3S6Df50JoUcVvx-qZjmms_iHV4zeL0cYB-C-Nzhy3TewEOq97GzRsV6zkY6cD70E32IVcSirxj50JG6gw3V5RXgrv1etN-Y-AdFc5_w"
+                    target="_blank"
+                    style="border: 1px solid #e1e8ed; border-radius: 10px; color: black; display: block; font-size: 14px; margin: 10px 0 20px 0; text-decoration: none; white-space: pre-wrap;"><img
+                      src="https://cdn.substack.com/image/fetch/w_600,h_314,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F23fe85ac-a542-40f5-9192-755039c73638_2560x1439.jpeg"
+                      class="expanded-link-img"
+                      style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 10px 10px 0px 0px; cursor: pointer; display: block; height: auto; margin: 0 auto; max-width: 100%; vertical-align: middle; width: auto;"><span
+                      class="expanded-link-title"
+                      style="display: block; font-weight: bold; margin-top: 10px; padding: 2px 10px;">Apple VP talks
+                      Apple TV 4K living room takeover, gaming and the future of the streaming platform</span><span
+                      class="expanded-link-description"
+                      style="display: block; line-height: 18px; padding: 2px 10px;">Tim Twerdahl, Apple’s vice president
+                      of product marketing for home and audio, touches on various subjects surrounding the Apple TV 4K,
+                      including the new Siri Remote and its gaming ambitions.</span><span class="expanded-link-domain"
+                      style="color: #8899a6; display: block; margin-bottom: 6px; padding: 2px 10px; text-transform: lowercase;">mobilesyrup.com</span></a>
+                  <div class="tweet-footer"
+                    style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                    <p class="tweet-date"
+                      style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                      May 22nd 2021</p><span class="likes" style="display: inline-block; margin-right: 8px;"><span
+                        class="like-count" style="color: #1c2022; font-weight: bold;">1</span> Like</span>
+                  </div>
+                </div>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">同場加映—用 SwiftUI 畫的遙控器！
+                </p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkN2OhCAMhZ9muDT8Kl5wsTf7GgahOuwoGCgz8e0Xx4SUnkDb089ZhDXl0xypILnChOcBJsKnbIAImdQCeQreSCkE7QfSMs-00iSUackAuw2bwVyBHHXegrMYUrwKmGSCk6fhAhzVFuioZ-_lTBUo26tRU-bkovw91lYfIDow8IZ8pghkM0_EozzEz4P_toOfcBnqXNqb-ktw2tnGV2mioMV6JUyMalAD5YzLUQ66v3wa3jRVXHBOKdMd67y3wo18nOUyAqOLW3opLGdsdkIrEA9J95V3pc6ts3tdI0k2Ht5tu_bWYjqC7VLcg8uppAW_XxqAqd17jQHPCaKdN_A3G7wJf2lNK0TIjbyfLBrWc6bpwPnQj_Rm0eCJfpCSD4o0Dz61qmgAnzY-q40rE__39pGq"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/joeyabanks.jpg"
+                        alt="Twitter avatar for @joeyabanks"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Joey Banks
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@joeyabanks</span></div>With the new
+                    Apple TV launching today, I wanted to try recreating the new remote with SwiftUI. It's far from
+                    perfect, but if you'd like to try it yourself, here's my code! 🙈📺
+                  </a><a class="tweet-url"
+                    href="https://email.mg2.substack.com/c/eJwlkc2OxCAIgJ9mPDaKVtuDh73sazT-YOtuq43a2fTt15lJCAhIgA9nGq653PrMtZGXWtp9ok74V3dsDQu5KpYlei0E51Qq0l-eTeNEYl1CQTxM3HUrF5Lzsnt0psWcXgVMMA5k05QLxd2MOHGKYQLWDYogQckgZxw_bc3lIyaHGp9Y7pyQ7Hpr7awP_vWA7y5rrG1YY9suO7h89MhPxttYk35rd3BGsFLxWXoIIwQqZyqpl9Y4pRQLJGqgwOgIHIBSNg1s8N70yWC2IszIaHBBCm6AMev4NCJ_CHqsMNTL1mbc76stKdrjs2_Zc13nM5ohpyO6kmsO7f2lg1i6Pa4U271gMnZH_2HUPqTf1JYVE5Z-Ab-YppkENlEFHctMP0w6RC6VEKBG0mfwuVcljW0zabtMWhn_BwlGk_U"
+                    target="_blank"
+                    style="color: #1ca1f2; display: block; text-decoration: none; white-space: pre-wrap;">gist.github.com/joeyabanks/e9e…</a>
+                  <img class="tweet-photo"
+                    src="https://cdn.substack.com/image/fetch/w_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fmedia%2FE13okGuWEAEWvcK.jpg"
+                    alt="Image"
+                    style="-moz-border-radius: 5px; -ms-interpolation-mode: bicubic; -webkit-border-radius: 5px; border: none !important; border-radius: 5px; cursor: pointer; display: block; height: auto; margin: 0 auto; margin-top: 8px; max-width: 550px; vertical-align: middle; width: 100%;">
+                  <div class="tweet-footer"
+                    style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                    <p class="tweet-date"
+                      style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                      May 21st 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                        class="rt-count" style="color: #1c2022; font-weight: bold;">13</span> Retweets</span><span
+                      class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                        style="color: #1c2022; font-weight: bold;">385</span> Likes</span>
+                  </div>
+                </div>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  💰辦一場 WWDC 要多少錢？</h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Epic vs Apple
+                  的官司還在進行中，節錄一些「爆料」：</p>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Apple 作證說要辦一場 WWDC
+                  要五千萬美元。</p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkEGOwyAMRU9TlhEGkpAFi9nMNSICTosmgQicVr39OK2Evo3A9vcLnvBe6tsdpZG4ZKb3gS7jq21IhFWcDeucojNGazmMgrMItrcitXmtiLtPm6N6ojjOZUvBUyr5KgADWomHi8u6REA1GRm0jauVFgcvNY4SpVXTd6w_Y8Ic0OET67tkFJt7EB3tpn9u6pcPvdJlqAtl51tO4a-RJ-L8imfjBPRk9ADDCNYa0wOLSE5JBbJXWikpwXbQxeh1mNS0mHVCkGtYB6O9AljYYI_6ZuR-V107F-4c_q6JorqIT16O31jLkXxX8p5CLa2s9PnC-88c9zMnes-Y_bJh_KKhL-APrPmOGSuDj7MnB4MCK0elxmGSXxTMTg-jMWrsBXuIhauyQ3r4_Dh9voP-B24UkVU"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/nickstatt.jpg"
+                        alt="Twitter avatar for @nickstatt"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Nick Statt
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@nickstatt</span></div>Holy shit.
+                    Schille says just one WWDC costs Apple about $50 million to put on.<div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 17th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">43</span> Retweets</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">146</span> Likes</span>
+                    </div>
+                  </a></div>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">
+                  相較之下所有的開發者年費收起來大概是一億美元。</p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkM2OhSAMhZ_msjT8qbBgMZt5DYNQlYyCgXJvfPvBa0LaQ6Dt6ecswpryZc5UkNxhwusEE-FTdkCETGqBPAVvpBSCDiNpyjPVKxLKtGSAw4bdYK5AzjrvwVkMKd4FTDLByWas0qCkW_QAmgohe628nBmTys_aq-UZa6sPEB0YeEO-UgSymw3xLC_x8-K_7eAn3IY6l452i8H9FbSITd-5liaY0FIMVA1UqlH3UkpOguGUM9pzwTmlTHWs894Kp7me5aKB0cUtgxSWMzY7oXoQL0mPlXelzq2z-7snkmw8vNty7a3FdAbbpXgEl1NJC36_tP2nlo8aA14TRDvv4B80-AD-wppWiJAbeD9ZNGzgTNGR83HQ9EHR2IlhbN7HnjQPPrWqaAA3G7dq48rEPxH8kRU"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/nickstatt.jpg"
+                        alt="Twitter avatar for @nickstatt"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Nick Statt
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@nickstatt</span></div>Interesting stat
+                    from Schiller: Apple Developer Program License Agreement, the paid program that costs $99 a year and
+                    gives you access to TestFlight and other tools, has about 1 million members, so close to $100
+                    million per year in revenue for Apple.<div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 17th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">8</span> Retweets</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">31</span> Likes</span>
+                    </div>
+                  </a></div>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">Apple 研發費用：</p>
+                <div class="tweet"
+                  style="background: #fff; border: 1px solid #e1e8ed; border-radius: 5px; display: block; font: normal normal 16px/1.4 Helvetica, Roboto, 'Segoe UI', Calibri, sans-serif; font-size: 16px; line-height: 26px; margin: 1em auto; max-width: 520px; padding: 20px 20px 11.6px 20px;">
+                  <a href="https://email.mg2.substack.com/c/eJwlkMmOwyAMhp-mHCPWBA4c5jKvEbGYFk0CETit-vZDWgnZv2W8fcEh3Gt726N2JJdZ8X2ALfDqGyBCI2eHtuZopRSCzgsZKjKtNMl9TQ1gd3mz2E4gx-m3HBzmWq4CJpng5GGTNt67mSWlvNEppmS8i8ED94tyXH3HujNmKAEsPKG9awGy2Qfi0W_i58Z_x8NXvhaaQt1HVHL46-gQh7782YdgwkhJF6MUU1xoTc1CsuWUMzpizillemJTjE4Ew42XyQCjKaRZCscZ80FoBeIm6X7nUz_96Bz-romk2QjPcdzIDVuP7KZa9hxa7TXh58u4fx1-P0vG9wrF-Q3iFw1-AX9grXco0Ab4uDq0bOZM04XzZTb0i2KwE_MiJV8UGTvEOqqKBXy48jhduTPxD6YyklQ"
+                    target="_blank" style="color: black; display: block; text-decoration: none; white-space: pre-wrap;">
+                    <div class="tweet-header"
+                      style="display: block; font-size: 16px; line-height: 1.2; margin-bottom: 14px; text-decoration: none;">
+                      <img class="tweet-user-avatar"
+                        src="https://cdn.substack.com/image/twitter_name/w_36/nickstatt.jpg"
+                        alt="Twitter avatar for @nickstatt"
+                        style="-ms-interpolation-mode: bicubic; border: none !important; border-radius: 50%; display: block; float: left; height: 36px; margin: 0 8px 0 0; max-width: 550px; vertical-align: middle; width: 36px;"><span
+                        class="tweet-author-name" style="color: #1c2022; display: block; font-weight: 700;">Nick Statt
+                      </span><span class="tweet-author"
+                        style="color: #697882; display: block; font-size: 14px;">@nickstatt</span></div>Oh my god.
+                    Schiller is asked how much Apple spends on R&amp;D.
+
+                    He says from 2005 to 2020 Apple spent $100 billion.
+
+                    Just last year alone Apple spent $18 billion.<div class="tweet-footer"
+                      style="color: #697882; display: block; font-size: 14px; line-height: 26px; margin-top: 10px; text-decoration: none;">
+                      <p class="tweet-date"
+                        style="border-bottom: 1px solid #e1e8ed; color: #697882; display: block; font-size: 14px; line-height: 1.4; margin: 0; margin-bottom: 10px; padding-bottom: 10px;">
+                        May 17th 2021</p><span class="retweets" style="display: inline-block; margin-right: 8px;"><span
+                          class="rt-count" style="color: #1c2022; font-weight: bold;">10</span> Retweets</span><span
+                        class="likes" style="display: inline-block; margin-right: 8px;"><span class="like-count"
+                          style="color: #1c2022; font-weight: bold;">53</span> Likes</span>
+                    </div>
+                  </a></div>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">其餘資訊可見<a
+                    href="https://email.mg2.substack.com/c/eJwlkcuOhCAQRb-m2Wl4-VqwmM38hkEolIyCgbKNfz_QnZBbNxQFxSmjEdaYHnXGjKTKjM8JKsCdd0CERK4MafZWSSkE7QdSnGVjNxKfZ5cADu13hekCcl7L7o1GH0MtYJIJTjbFYOCLmySIyUnTu0VyJzrdAx17Ny7i-6y-rIdgQMEb0hMDkF1tiGd-iZ8X_y3rvu8Wt5peoTXxKFucclaCrHaqwiWj4zAUC6c3zaoPyI0-zx2qNhljKi6gLw1nbDB5vTe7vvPlsamfJl7VS2nHBeeUsrFlrbVamIlPi3QTMOqM66XQnLHFiLED8ZL0WHmbryWjNn-1N5KUhXdhUXJF4-l1G8PhTYo5OvwcKbjmEo8reHxmCHrZwX5J4nceH7bzCgFSmZOdNSrWczbSgfOhn-iXXEEt-kFKPnSk9GBjqQoKcNNhu3RYmfgHtm2igQ"
+                    style="color: #ff6b00; text-decoration: none;">The Verge 的 News Stream</a>。</p>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  🏃<a
+                    href="https://email.mg2.substack.com/c/eJwlkcFyhCAMhp9muekQENQDh176Gg5CVKYKVmI7-_bNdmeYP0zgh-RL8IRruZ7uLJXESyZ6nugy_tYdifASd8VrStF1ndbS9oJ3EQYziFSn5UI8fNodXTeK8573FDylkl8G6EArsTlrltlY76OxIQL0pvMmKCsNgIUxxPe3_o4Jc0CHP3g9S0axu43orA_98VCfvDDsGCiFPa0btaFwSkkFHKRhgZ5lK7_NAc3hQ20WxL1ZfOUmGtp8blImzhwl4l6bRLXxc7mp-S6VnSK512vSKK2UlDC00MbodRjVOHfLiCCXsNhOewUwBz0Y1I9OHqtq6z1X8uGLazrE5SL-MAQ-Yy1n8m3JRwpXqWWh_yvMaeJ43DnRc8Ls5x3jGyG9B_EPdVox48UDipMnB1bBIHulejvKNzJmrG3fdao3gmuIhV3Z4avX7fZ5Bf0H1D2fpg"
+                    style="color: #1a1a1a; text-decoration: underline;">How M1 Macs feel faster than Intel models: it’s
+                    about QoS</a></h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">不同的 QoS 管理對於操作感受的影響。
+                </p>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  🎙<a
+                    href="https://email.mg2.substack.com/c/eJwlkEuOwyAMhk9TlhEYAmTBYjZzjYiASdEkEAFpldsPbSTLD9kG_5-zDddcLnPk2sjHze060CR81w1bw0LOimWO3gjBOZWK9MwzPWoS6xwK4m7jZlo5kRznskVnW8zps8AE40CeJggv5ThRZnEBoZ1S4DRQpFQjyCnc39rTR0wODb6wXDkh2cyztaM--M8Dfru90f5V3MLg8dVLPGLNHmtPlSTRAAVGR-AAlDI9sMF7y90E0yLChIwGF6TgFhhbHNcj8oeg-wpDPZfarPsbXN5JMf3xLqH3us9HtENOe3Ql1xzad6SrnHvczxTbNWOyy4b-BtBujF8k84oJS8frZ9sMk8A0VQBKTvQW3AlxqYQANZJ-g899KxlsT5uep00r4_-YPInW"
+                    style="color: #1a1a1a; text-decoration: underline;">weak self podcast 76: 在家工作！WFH 時怎麼樣才不會 WTF</a>
+                </h3>
+                <blockquote style="border-left: 4px solid #ff6b00; margin: 1em 0;">
+                  <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-left: 1em;">
+                    資深聽眾你沒有看錯，節目標題 reuse 了。</p>
+                </blockquote>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;">連結如果 404
+                  的話表示這集還沒上架，稍後會<strong>校正上架</strong>🤪</p>
+                <h3
+                  style="-moz-osx-font-smoothing: antialiased; -webkit-font-smoothing: antialiased; color: #1a1a1a; font-family: 'SF Compact Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 1.375em; font-weight: bold; line-height: 1.16em; margin: 1em 0 0.625em 0;">
+                  💼職缺/履歷交流區</h3>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0;">如果你有
+                  iOS 相關<strong>職缺</strong>或是<strong>求職履歷</strong>想要刊登在「13 的開發者週報」，請見<a
+                    href="https://email.mg2.substack.com/c/eJxVkMluxCAMhp9mOEasWQ4cepnXiFicBDWBCMxUefsyk0srWbYlr__nDMKa8qXPVJC83YzXCTrCT9kBETKpBfIcvJZSCNoPpGWejWokocxLBjhM2DXmCuSsdg_OYEjxPcAkE5xsmg_94qjw0yipVwMoS40dKXWOS2VA3WdN9QGiAw0vyFeKQHa9IZ7lIb4e_NkMcDNxqyauTHSl2oLGfXcuHa1mbKpIguaUM6q44JxSNnas894IN_HJymUCRhe39FIYzph1YlQgHpIeK_-3jmTt4dV0tFrz6QymS_EILqeSFvy0NKlzi0eNAa8ZorE7-JsC3iw_XOYVIuTG2M8GNes5G-nAG5CJ3qobJtEPUvJBkfaDT20q6r9KfwFcyIyd"
+                    style="color: #ff6b00; text-decoration: none;">關於</a>。</p>
+              </div>
+            </div>
+            <table cellpadding="0" cellspacing="0" class="post-meta big  custom" style="margin: 0 0 10px;">
+              <tbody>
+                <tr>
+                  <td class="post-meta-item icon"
+                    style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: 300; height: 30px; line-height: 30px; padding: 7px 12px 7px 0; padding-right: 16px; position: relative; text-decoration: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">
+                    <span><a
+                        href="https://email.mg2.substack.com/c/eJxVUtuO2jAQ_Rry1siXXB_y0G2gCoJsaVWWPEWOPYAhsaPYgQ1fX2fZSq1kHdtzsc_MHM4snPQwZb021puhtlMPmYK7acFaGLzRwFBLkQUBpSiKPXcSOAkTT5r6OAB0TLaZHUbw-rFpJWdWajUn4ABT4p0zkogYoYilaYBjIAjhJox4hOMo5AIl4vktG4UExSGDGwyTVuC12dna3izo1wVZuQX2zNR5ZOqEqW_GxljGrz7XnfOxXjq8YQfza3P0zOvLAIzPfBZ0ZfUV3J7DtMac7KcDaa_FRaMy3z62eUU339b3hpbo0_4oL9z5Clr-ukve7c8V_dk3JJCvciMV20kX31eHnXy9LMn2sgy2OZ-2F26Krn3wqYgK9YIrid7LfPnYysIUqnT32b5uq7cSsbd0LBTyq8169W7aVXKL7W55_50336FDL-_XnFQJW8kwr3d4ffih9mZBotF2tdHjwMGV8rcJn_YOhBy7ucS5dk9mBBGMQkLJ3PTEx74QjPKUpE1wTAGjIz9GAWUE44bTJAS6CFB3Iv811xsyATc3VedzqHvJfK06yQdt9NF-hLjB127vRiXtVINiTQviqQn7VNYHo_oECganOFEzm-GI4ATFhMRRip4acKKhURwEJA49x0Fol6Wyf-f-B_P-5qk"
+                        class="like-button"
+                        style="color: #757575; display: block; position: relative; text-decoration: none;"><img
+                          src="https://cdn.substack.com/image/fetch/w_45,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FHeartIcon%3Fv%3D2%26height%3D60%26strokeWidth%3D2"
+                          width="22.5" height="30"
+                          style="border: none !important; float: left; height: 30px; max-width: 22.5px; vertical-align: middle; width: auto;"
+                          alt=""></a></span></td>
+                  <td class="post-meta-item icon"
+                    style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: 300; height: 30px; line-height: 30px; padding: 7px 12px 7px 0; padding-right: 16px; position: relative; text-decoration: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">
+                    <a href="https://email.mg2.substack.com/c/eJxVUtuOmzAQ_ZrwVuQL1wceto3SJQqs2s022Sdk7CFxAjYCExa-fk2ylVrJHnnOzNjHc4YzAyfdTUmre-MspjBTC4mCsa_BGOicoYeukCLxPEpREDr2JHDkR47si6oDaJisE9MN4LRDWUvOjNRqKcAepsQ5JxXhpR_6nk9DQSsBDJdQ8YoGjPOI8urxLBuEBMUhgRt0k1bg1MnZmLZf0acV2dgF5szUeWDqhKnbD2VvGL-6XDc21todE2us24Aytmpj9BXUiq5h2mJO_kxHUl_Ti0b5Opuz9Tvd_diOJc3RFz7nF25jKc1fR8kOG2Sxj_ySfrysn2h2SZf8ltNMvsjtKA6pyfa_PrI5lRafrX_Hl_t2x239fsgRO8RDqpCLvv-co338KkIx8m_10WuD_Tp75ufL79uYmjf8NhMZPsPOsibBYJqi10PHwVL_-8svvAEhh2b50tJ0RyYEEYx8QglBCEcudoVglMckLr0qBoxsmwOPMoJxyWnkA115qDmR_7rndImAm5XNxqzVrWSuVo3kne51Ze4pVtli6eygpJkKUKysQTxEN4_RuTMqTqCgsyMlCmYSHBAcoZCQMIjRQ2Q7FTQIPY-EvmM5CG2rVPKvsJ8uWN1h"
+                      style="color: #757575; display: block; text-decoration: none;"><img
+                        src="https://cdn.substack.com/image/fetch/w_42,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FCommentIcon%3Fv%3D2%26height%3D60%26strokeWidth%3D2"
+                        width="21" height="30"
+                        style="border: none !important; float: left; height: 30px; max-width: 21px; stroke: #757575; vertical-align: middle; width: auto;"
+                        alt="Comment"></a></td>
+                  <td class="post-meta-item icon"
+                    style="color: #757575; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: 300; height: 30px; line-height: 30px; margin-right: 0; padding: 7px 12px 7px 0; padding-right: 16px; position: relative; text-decoration: none; text-indent: 3px; vertical-align: middle; white-space: nowrap;">
+                    <span><a
+                        href="https://email.mg2.substack.com/c/eJxVktuOmzAQhp8G7op8IBwuuNg2SpcosGo322SvkLGH4ARsBCYsefqaZCttJXtkfzO2xzM_ZwZOup-TTg_GXUxh5g4SBdPQgDHQu-MAfSFF4vuUoiB07UrgaBW5ciiqHqBlsklMP4LbjWUjOTNSq-UA9jElbp0EjFWICL6KSRAJCnGIMRNVCX4QoJDFj2fZKCQoDglcoZ-1ArdJamO6waFPDtnYAaZmqh6ZOmHqDWM5GMYvHtet9XV2xsShm9G0xaDHnoND1_-CHBIsvAUhx9bye86fkGtlQJklumY9WMr48oMvwOgLLHuYt5iTP_ORNJf0rFG-zm7Z-p3ufmynkubok9_yM7e-lOavk2SHDbLsIz-nHy_rJ5qd0yW-4zSTL3I7iUNqsv2vj-yWSstvdn_ny32747Z5P-SIHeIxVchD33_eon38KkIx8W_N0e-C_Tp75vX593VKzRt-uxEZPsPODK5MCCIYrQglBCEcedgTglEek7j0qxgwqngV-JQRjEtOoxVQx0ftifxXWbdPBFxtS63PWt1J5mnVSt7rQVfmHmK7bovYtqOSZi5AsbIB8RCEecjqXu7iBAp6KzdRMJPggOAIhYSEQYweArCKoUHo-yRcuTYHoe0plXxt-l-HSuYX"
+                        style="color: #757575; display: block; text-decoration: none;"><img
+                          src="https://cdn.substack.com/image/fetch/w_33,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FShareIcon%3Fv%3D2%26height%3D60%26stroke%3D%2523999999%26strokeWidth%3D2"
+                          width="16.5" height="30"
+                          style="border: none !important; float: left; height: 30px; max-width: 16.5px; vertical-align: middle; width: auto;"
+                          alt="Share"></a></span></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="container-border"
+              style="border-top: 1px solid #f6e9df; box-sizing: border-box; font-size: 16px; line-height: 26px; margin: 32px 0 0; width: 100%;">
+            </div>
+            <div class="postscript" style="font-size: 16px; line-height: 26px; margin: 24px 0 40px;">
+              <div class="body markup"
+                style="font-size: 16px; line-height: 26px; margin-bottom: 12px; word-break: break-word;">
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-top: 0;">
+                  以上就是本期的內容。有問題、回饋、洽談社群活動、職缺或履歷刊登，請直接回覆信件，或到我的&nbsp;<a
+                    href="https://email.mg2.substack.com/c/eJxNkMuOhSAMhp_msDTcvC1YzGZew1QoSkbBQD0nvv3guJmkaSHwt_1-C4RLypc5UiF2p4muA03ET9mQCDM7C-YpOKO1UrzrWT05MbQDC2XyGXGHsBnKJ7LjnLdggUKKt0BooSRbzWCh54jtKAF63Xsv5DijAPTKy9kPz1g4XcBo0eAb85Uiss2sREd5qa-X_K5Bn3Av1Ni01xvSCnE9IS5CsWAkl4K3UknJuRga0TgHyo51kvYjCu6t77QCKcRs1dCiemm-L7Ip51wI7M_dlWXj8F0B6lvN6QjQpLgHm1NJnv6-VMap1v2Mga4JI8wbugefHhP_DJkWjJiruW4CMqKTYuC9lH038ge3-qO6XmvZt6zu4FJVRfMf6hdDcYrY"
+                    style="color: #ff6b00; text-decoration: none;">Twitter</a>&nbsp;留言。</p>
+                <p style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0;"><strong>13 的 Apple
+                    開發者週報</strong>自 2019 年起，每週免費提供 iOS 開發者資訊。如果週報對你很有幫助，請考慮<a
+                    href="https://email.mg2.substack.com/c/eJxNkM2OhSAMhZ_msjRQ8G_BYjbzGgahKBkFA_Ua336442YSUkjbU3o-awiXlG99pELsEya6D9QRr7IhEWZ2FsxTcFopKXnXs_pyYmgHFsrkM-JuwqYpn8iOc96CNRRS_AiEEhLYqk3rXDeCamG03I1z23k0bkbpey8FqOdbc7qA0aLGN-Y7RWSbXomO8pJfL_iu57qu5jCUMcXGpr1mkFYT19PERUgWNHAQvAUJwLkYGtE4Z6QdYZyVH1Fwb32npAEhZiuHFuVL8X2BppxzIWN_PlNZ1g7f1USt1ZiOYJoU92BzKsnTX0v1OdV7P2Oge8Jo5g3dg4AekH9QpgUj5grYTYa06EAMvAfou5E_lisj2fVKQd-yuoNLVRX1f1O_JcOL8A"
+                    style="color: #ff6b00; text-decoration: none;">捐款支持 13</a> 💪，可以讓我做得更好🙏</p>
+                <p class="button-wrapper"
+                  data-attrs="{&quot;url&quot;:&quot;https://www.patreon.com/ethanhuang13&quot;,&quot;text&quot;:&quot;捐款支持 13&quot;,&quot;class&quot;:null}"
+                  style="color: #1a1a1a; font-size: 16px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0; text-align: center;">
+                  <a class="button primary"
+                    href="https://email.mg2.substack.com/c/eJxNkM2OhSAMhZ_msjRQ8G_BYjbzGgahKBkFA_Ua336442YSUkjbU3o-awiXlG99pELsEya6D9QRr7IhEWZ2FsxTcFopKXnXs_pyYmgHFsrkM-JuwqYpn8iOc96CNRRS_AiEEhLYqk3rXDeCamG03I1z23k0bkbpey8FqOdbc7qA0aLGN-Y7RWSbXomO8pJfL_iu57qu5jCUMcXGpr1mkFYT19PERUgWNHAQvAUJwLkYGtE4Z6QdYZyVH1Fwb32npAEhZiuHFuVL8X2BppxzIWN_PlNZ1g7f1USt1ZiOYJoU92BzKsnTX0v1OdV7P2Oge8Jo5g3dg4AekH9QpgUj5grYTYa06EAMvAfou5E_lisj2fVKQd-yuoNLVRX1f1O_JcOL8A"
+                    style="background-color: #ff6b00; border: none; border-radius: 4px; box-sizing: border-box; color: #ffffff !important; cursor: pointer; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; height: auto; line-height: 20px; margin: 0; opacity: 1; outline: none; padding: 6px 20px; text-align: center; text-decoration: none !important;"><span
+                      style="color: #ffffff; text-decoration: none;">捐款支持 13</span></a></p>
+              </div>
+            </div>
+            <div class="footer"
+              style="background: #f8f8f8 !important; color: #bcbcbc; font-size: 16px; line-height: 26px; padding: 32px; text-align: center;">
+              <p class="small"
+                style="color: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0; padding-bottom: 30px;">
+                © 2021 <span>ethanhuang13</span> <a
+                  href="https://email.mg2.substack.com/c/eJxVUtuOozAM_ZryiHLh-sBDZ9iuqAa6o1n1Mi8oJKakhaSC0JZ-_YZ2H3alyLGPbdk6x5wZOOp-Si56MM5sSjNdIFFwG1owBnpnHKAvpUg8j1IUhI71BI78yJFDWfcAHZNtYvoRnMtYtZIzI7WaG7CHKXGahJLKCxH2uV9HsfAqHBEUAaY8oLFfk_g1lo1CguKQwBX6SStw2qQx5jIs6HJBVvaBaZhqRqaOmLrDWA2G8bPLdWdzjM9TrSPkwKoWyudaC7oy-gxqQVOY1piT7bQn7Tk7aVSk-SNPD_TjfX2raIH-4o_ixG0uo8XXTbLdClnsXpyy-yZd0vyUzfUXTnO5keub2GUm__15zx-ZtPjDxjN-ZvuiOXT3dk-25rBrh0whd082P_bf11V9qtXqZ85v1yZNf22_G7Pj01h_0LDYDG_L8v3r05EJQQQjn1BCEMKRi10hGOUxiSuvjgGjmteBRxnBuOI08oEuPNQdyX-sOH0i4GrlsDlr9UUyV6tO8l4PujbPEqtYaf9uVNJMJaiZOvES07xO4sljeQQFvT0VUTKT4IDgCIWEhEGMXuJZtWkQeh4JfcfuILTtUsm_gv0BTi_PiQ"
+                  style="color: #ff6b00; text-decoration: none;"><span
+                    style="color: #bcbcbc; text-decoration: underline;">Unsubscribe</span></a></p>
+              <p class="small powered-by-substack"
+                style="color: #bcbcbc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 13px; line-height: 26px; margin: 0 0 1em 0; margin-bottom: 0; padding-bottom: 0;">
+                <a href="https://email.mg2.substack.com/c/eJxNUcuO5CAM_Jpw24hXCDlwWGk1vxHxcLrRBojAzKj_fujuWWklZOFyWS6XvUW4lfowV2lInmHHxwUmw1c7AREq6Q3qHoORUgiqVjJ-gelFk9j2owIkG0-DtQO5ujujtxhLfjYwyQQnd0N12FYXvFOWea7csfBFLVrboK2XbnuPtT1EyB4MfEJ9lAzkNHfEq03i98Q_xmvdNbT-7-xLGulR6q-vGofEQfnomPZWevUwiT__mBNXTzxBiD0N_KX1B_QlI2Qc6FHKc89oOOWMLlxwTinTM5tDsMJvfHPy2IDRwx9KCssZc17oBcQkabrx-X9hpJoAn8OEURuxXNHOJafoa2nlwBdl-DTGp9RzxMcO2boTwttCfB_iJXS_QYY6DhR2i4YpzjRdOV_VRt-WDY-FWqXk60KGhlBGVzaAd5vv3eYbE98il6Ny"
+                  style="color: #ff6b00; text-decoration: none;"><img alt="Publish on Substack"
+                    src="https://cdn.substack.com/image/fetch/w_340,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fpublish-on-substack.png"
+                    width="170"
+                    style="border: none !important; margin-top: 3px; max-width: 550px; vertical-align: middle;"></a></p>
+            </div>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table><img width="1px" height="1px" alt=""
+    src="https://email.mg2.substack.com/o/eJwtkEtyxCAMRE8Tli4QGOwFZ6H4yB4qNrj4TMq3D55ko41eS93tbcM9l1tfuTbSKxYTgxaCcyoVwdPGw-yYsAwuGNs0k8AWqgCUXCkZaGDLvJBYzVbww-tWOpKruyN622JOz0UmGAfy0io4KhSidDMICQrU4lHYmQJbV-8VeXwY20PE5FHjG8udE5KoYSB0Bg5AKVsmNoVguV9hdWJbkdHNb1JwC4w5z5cZ-Zeg5w5T7a42678nn09SdMD3cDV2Y-Yr2imnM_qSa97aB_kYaPeFOuFPPbA1LKT99TNCmcGcPcV2G0zWHRj-8z6yEZRLJQSomYy_IY8-ksb2sunVbdoZ_wVLU3tA">
+</body>
+
+</html>
